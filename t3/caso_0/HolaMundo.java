@@ -14,12 +14,12 @@ public class HolaMundo {
     // Inicializar la variable de salida con un valor
     mensaje = "Hello World";
 
-    // Usar una estructura de seleccion simple para asignar valor a la salida
+    // Usamos una estructura de seleccion simple para asignar valor a la salida
     if (repeticiones >= 1 && repeticiones <= 10) {
       mensaje = "Hola Mundo";
     }
 
-    // Usar una estructura de repeticion para mostrar el mensaje una cantidad "n" de
+    // Usamos una estructura de repeticion para mostrar el mensaje una cantidad "n" de
     // veces
     for (int iterador = 1; iterador <= repeticiones; iterador++) {
       System.out.println(iterador + ":" + mensaje);

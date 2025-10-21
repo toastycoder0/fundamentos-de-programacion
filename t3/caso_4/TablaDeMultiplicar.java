@@ -20,7 +20,7 @@ public class TablaDeMultiplicar {
       // Asigno valor a mi salida
       resultado = multiplicador * numeroDeTabla;
 
-      // Muestro mi salida
+      // Mostramos la salida
       System.out.println(numeroDeTabla + " x " + multiplicador + " = " + resultado);
     }
   }

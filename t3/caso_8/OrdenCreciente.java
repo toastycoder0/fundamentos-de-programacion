@@ -18,18 +18,18 @@ public class OrdenCreciente {
     // Inicializamos la variable de salida (con un valor por defecto)
     mensaje = " no hay orden establecido";
 
-    // Usamos una estructura de seleccion simple para evaluar si el número es
+    // Usamos una estructura de seleccion simple para evaluar si el orden es
     // creciente
     if (numeroUno < numeroDos && numeroDos < numeroTres) {
       // Asignamos valor a la variable de salida
       mensaje = " el orden es creciente";
     }
 
-    // Usamos una estructura de seleccion simple para evaluar si el número es
-    // ascendente
+    // Usamos una estructura de seleccion simple para evaluar si el orden es
+    // descendente
     if (numeroUno > numeroDos && numeroDos > numeroTres) {
       // Asignamos valor a la variable de salida
-      mensaje = " el orden es ascendente";
+      mensaje = " el orden es descendente";
     }
 
     // Mostramos la salida

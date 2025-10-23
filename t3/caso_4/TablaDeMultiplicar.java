@@ -12,7 +12,7 @@ public class TablaDeMultiplicar {
     numeroDeTabla = 2;
 
     // Inicializamos la salida
-    tablaDeMultiplicar = "";
+    tablaDeMultiplicar = "Tabla de multiplicar del " + numeroDeTabla + ":\n";
 
     // Realizamos nuestro ciclo empezando desde 1 hasta 10 aumentando en 1
     // El multiplicador es un conjunto de {1,2,3...10}

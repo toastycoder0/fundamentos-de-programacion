@@ -6,22 +6,22 @@ public class TablaDeMultiplicar {
     int numeroDeTabla;
 
     // Declaramos la variable de salida
-    int resultado;
+    String tablaDeMultiplicar;
 
     // Asignamos valor a la entrada
     numeroDeTabla = 2;
 
     // Inicializamos la salida
-    resultado = 0;
+    tablaDeMultiplicar = "";
 
     // Realizamos nuestro ciclo empezando desde 1 hasta 10 aumentando en 1
     // El multiplicador es un conjunto de {1,2,3...10}
     for (int multiplicador = 1; multiplicador < 11; multiplicador++) {
       // Asigno valor a mi salida
-      resultado = multiplicador * numeroDeTabla;
-
-      // Mostramos la salida
-      System.out.println(numeroDeTabla + " x " + multiplicador + " = " + resultado);
+      tablaDeMultiplicar += numeroDeTabla + " x " + multiplicador + " = " + numeroDeTabla * multiplicador + "\n";
     }
+
+    // Mostramos la salida
+    System.out.println(tablaDeMultiplicar);
   }
 }

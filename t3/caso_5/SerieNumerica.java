@@ -8,17 +8,22 @@ public class SerieNumerica {
     int intervalo;
 
     // Declaramos la variable de salida
-    int iterador;
+    String serie;
 
     // Asignamos valores a las variables de entrada
     inicio = 1;
     fin = 10;
     intervalo = 1;
 
+    // Inicializamos la variable de salida
+    serie = "";
+
     // Usamos un bucle for para iterar sobre el rango de valores
-    for (iterador = inicio; iterador <= fin; iterador += intervalo) {
-      // Mostramos la salida
-      System.out.println(iterador);
+    for (int iterador = inicio; iterador <= fin; iterador += intervalo) {
+      serie += iterador + "\n";
     }
+
+    // Mostramos la salida
+    System.out.println(serie);
   }
 }

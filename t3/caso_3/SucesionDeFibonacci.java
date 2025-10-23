@@ -4,37 +4,30 @@ public class SucesionDeFibonacci {
   public static void main(String[] args) {
     // Declaración de variables de entrada
     int terminoUno;
+    int terminoDos;
     int repeticiones;
 
-    // Declaración de la variable auxiliar
-    int terminoIntermedio;
-
     // Declaración de la variable de salida
-    int terminoDos;
+    String sucecion;
 
     // Asignamos valores a las variables de entrada
     terminoUno = 0;
+    terminoDos = 1;
     repeticiones = 5;
 
-    // Inicializamos la variable auxiliar
-    terminoIntermedio = 0;
+    // Inicializo mi variable de salida
+    sucecion = terminoUno + "\n" + terminoDos + "\n";
 
-    // Inicializamos la variable de salida
-    terminoDos = 1;
-
-    // Usamos un bucle for para iterar sobre el número de repeticiones
     for (int iterador = 0; iterador <= repeticiones; iterador++) {
-      // Mostramos el valor de la variable de salida
-      System.out.println(terminoDos);
+      // Actualizo los valores de mis variables de entrada
+      terminoDos += terminoUno;
+      terminoUno = terminoDos - terminoUno;
 
-      // Calculamos el siguiente valor de la sucesión
-      terminoIntermedio = terminoUno + terminoDos;
-
-      // Cambiamos el valor de la variable de entrada
-      terminoUno = terminoDos;
-
-      // Asignamos el valor de la variable intermedia a la variable de salida
-      terminoDos = terminoIntermedio;
+      // Asigno valor a mi salida
+      sucecion += terminoDos + "\n";
     }
+
+    // Muestro mi salida
+    System.out.println(sucecion);
   }
 }

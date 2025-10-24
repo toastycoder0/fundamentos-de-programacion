@@ -1,24 +1,24 @@
 // Caso de estudio 2
-// Mostrar la calificación de un tema de la materia de Fundamentos de programación
+// Mostrar la calificaciï¿½n de un tema de la materia de Fundamentos de programaciï¿½n
 Algoritmo CalificacionTemaFdp
-	// Definimos las variables de entrada "cuestionario" y "actualizacion"
+	// Definimos las variables de entrada
 	Definir cuestionario Como Entero
 	Definir actualizacion Como Entero
 	
-	// Definimos la variable de salida "calificacion"
+	// Definimos la variable de salida
 	Definir calificacion Como Entero
 	
-	// Asignamos valores iniciales a las variables de entrada "cuestionario" y "actualizacion"
+	// Asignamos valores iniciales a las variables de entrada
 	cuestionario <- 50
 	actualizacion <- 50
 	
-	// Inicializamos la variable de salida "porcentaje"
+	// Inicializamos la variable de salida
 	calificacion <- 0
 
-	// Asignamos valor a la variable de salida "calificacion"
-	// Calculamos la calificación sumando las variables de entrada "cuestionario" y "actualizacion"
+	// Asignamos valor a la variable de salida
+	// Calculamos la calificaciï¿½n sumando las variables de entrada
 	calificacion <- cuestionario + actualizacion
 	
-	// Mostramos la variable de salida "calificacion"
-	Escribir "La calificación del tema de Fundamentos de Programación es de ", calificacion
+	// Mostramos la variable de salida
+	Escribir "La calificaciï¿½n del tema de Fundamentos de Programaciï¿½n es de ", calificacion
 FinAlgoritmo

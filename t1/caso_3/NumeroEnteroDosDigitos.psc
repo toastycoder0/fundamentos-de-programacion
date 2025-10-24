@@ -1,26 +1,26 @@
 // Caso de estudio 3
-// Obtener las decenas y unidades de un número entero de 2 dígitos
+// Obtener las decenas y unidades de un nï¿½mero entero de 2 dï¿½gitos
 Algoritmo NumeroEnteroDosDigitos
-	// Definimos la variable de entrada "numeroEntero"
+	// Definimos la variable de entrada
 	Definir numeroEntero Como Entero
 	
-	// Definimos las variables de salida "decenas" y "unidades"
+	// Definimos las variables de salida
 	Definir decenas Como Entero
 	Definir unidades Como Entero
 	
-	// Asignamos un valor inicial a la variable de entrada "numeroEntero"
+	// Asignamos un valor inicial a la variable de entrada
 	numeroEntero <- 23
 	
-	// Inicializamos las variables de salida "decenas" y "unidades"
+	// Inicializamos las variables de salida
 	decenas <- 0
 	unidades <- 0
 	
-	// Asignamos valor a las variables de salida "decenas" y "unidades"
-	// Calculamos las decenas dividiendo el número entre 10
+	// Asignamos valor a las variables de salida
+	// Calculamos las decenas dividiendo el nï¿½mero entre 10
 	decenas <- trunc(numeroEntero / 10)
-	// Calculamos las unidades obteniendo el residuo de la división entre 10
+	// Calculamos las unidades obteniendo el residuo de la divisiï¿½n entre 10
 	unidades <- numeroEntero % 10
 	
-	// Mostramos las variables de salida "decenas" y "unidades"
-	Escribir "El número ", numeroEntero, " tiene ", decenas, " decena(s) y ", unidades, " unidad(es)"
+	// Mostramos las variables de salida
+	Escribir "El nï¿½mero ", numeroEntero, " tiene ", decenas, " decena(s) y ", unidades, " unidad(es)"
 FinAlgoritmo

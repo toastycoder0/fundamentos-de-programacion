@@ -1,7 +1,7 @@
 // Caso de estudio 6
 // Calcular el promedio de un semestre
 Algoritmo PromedioSemestre
-	// Definimos la variable de entrada "matricula", "calculo", "etica", "matematicas", "investigacion" y "fundamentos"
+	// Definimos las variables de entrada
 	Definir matricula Como Caracter
 	Definir calculo Como Real
 	Definir etica Como Real
@@ -9,10 +9,10 @@ Algoritmo PromedioSemestre
 	Definir investigacion Como Real
 	Definir fundamentos Como Real
 	
-	// Definimos la variable de salida "promedio"
+	// Definimos la variable de salida
 	Definir promedio Como Real
 	
-	// Asignamos valores iniciales a las variables de entrada "matricula", "calculo", "etica", "matematicas", "investigacion" y "fundamentos"
+	// Asignamos valores iniciales a las variables de entrada
 	matricula <- "232493242"
 	calculo <- 70
 	etica <- 90
@@ -20,13 +20,13 @@ Algoritmo PromedioSemestre
 	investigacion <- 70
 	fundamentos <- 80
 	
-	// Inicializamos la variable de salida "promedio"
+	// Inicializamos la variable de salida
 	promedio <- 0
 	
-	// Asignamos valor a la variable de salida "promedio"
-	// Calculamos el promedio sumando las calificaciones y dividiendo entre el número de materias
+	// Asignamos valor a la variable de salida
+	// Calculamos el promedio sumando las calificaciones y dividiendo entre el nï¿½mero de materias
 	promedio <- (calculo + etica + matematicas + investigacion + fundamentos) / 5
 	
-	// Mostramos la variable de salida "promedio"
-	Escribir "El alumno con matrícula ", matricula, " tiene un promedio de ", promedio
+	// Mostramos la variable de salida
+	Escribir "El alumno con matrï¿½cula ", matricula, " tiene un promedio de ", promedio
 FinAlgoritmo

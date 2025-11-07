@@ -1,5 +1,5 @@
 // Caso de estudio 3
-// Sucesión de fibonacci
+// Ssucesión de Fibonacci
 public class SucesionDeFibonacci {
   public static void main(String[] args) {
     // Declaración de variables de entrada
@@ -11,7 +11,7 @@ public class SucesionDeFibonacci {
     int terminoAuxiliar;
 
     // Declaración de la variable de salida
-    String sucecion;
+    String sucesion;
 
     // Asignamos valores a las variables de entrada
     terminoUno = 8;
@@ -22,27 +22,29 @@ public class SucesionDeFibonacci {
     terminoAuxiliar = 0;
 
     // Inicializo mi variable de salida
-    sucecion = terminoUno + " " + terminoDos;
+    sucesion = terminoUno + " " + terminoDos;
 
+    // Uso un ciclo para mostrar los siguientes terminos de la sucesion
     for (int iterador = 2; iterador < repeticiones; iterador++) {
-      // Asigno valor a mi variable intermedia
+      // Asigno valor a mi variable auxiliar
       terminoAuxiliar = terminoDos;
 
-      // Actualizo el valor del terminoDos
+      // Actualizo el valor del terminoDos en base a una condicion
+      // (alternando entre resta y suma)
       if (iterador % 2 == 0) {
-        terminoDos += terminoUno;
-      } else {
         terminoDos = terminoUno - terminoDos;
+      } else {
+        terminoDos += terminoUno;
       }
 
       // Actualizo el valor del terminoUno
       terminoUno = terminoAuxiliar;
 
       // Asigno valor a mi salida
-      sucecion += " " + terminoDos;
+      sucesion += " " + terminoDos;
     }
 
     // Muestro mi salida
-    System.out.println(sucecion);
+    System.out.println(sucesion);
   }
 }

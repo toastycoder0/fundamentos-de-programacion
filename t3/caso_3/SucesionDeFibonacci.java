@@ -1,5 +1,5 @@
 // Caso de estudio 3
-// Ssucesión de Fibonacci
+// Sucesión de Fibonacci
 public class SucesionDeFibonacci {
   public static void main(String[] args) {
     // Declaración de variables de entrada

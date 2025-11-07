@@ -25,16 +25,16 @@ public class SucesionDeFibonacci {
     sucesion = terminoUno + " " + terminoDos;
 
     // Uso un ciclo para mostrar los siguientes terminos de la sucesion
-    for (int iterador = 2; iterador < repeticiones; iterador++) {
+    for (int iterador = 3; iterador <= repeticiones; iterador++) {
       // Asigno valor a mi variable auxiliar
       terminoAuxiliar = terminoDos;
 
       // Actualizo el valor del terminoDos en base a una condicion
       // (alternando entre resta y suma)
       if (iterador % 2 == 0) {
-        terminoDos = terminoUno - terminoDos;
-      } else {
         terminoDos += terminoUno;
+      } else {
+        terminoDos = terminoUno - terminoDos;
       }
 
       // Actualizo el valor del terminoUno

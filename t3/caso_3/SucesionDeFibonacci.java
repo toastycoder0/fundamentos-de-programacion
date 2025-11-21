@@ -14,9 +14,9 @@ public class SucesionDeFibonacci {
     String sucesion;
 
     // Asignamos valores a las variables de entrada
-    terminoUno = 8;
-    terminoDos = 9;
-    repeticiones = 10;
+    terminoUno = 5;
+    terminoDos = 5;
+    repeticiones = 5;
 
     // Inicializo mi variable auxiliar
     terminoAuxiliar = 0;
